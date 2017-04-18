@@ -1,11 +1,11 @@
 import { browser, element, by } from 'protractor';
 
-export class TempPage {
+export class <%= appTitle %>Page {
   navigateTo() {
     return browser.get('/');
   }
 
   getParagraphText() {
-    return element(by.css('app-<%= appName %> h1')).getText();
+    return element(by.css('app-root h1')).getText();
   }
 }

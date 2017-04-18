@@ -1,10 +1,10 @@
-import { TempPage } from './app.po';
+import { <%= appTitle %>Page } from './app.po';
 
-describe('<%= appName %>', () => {
-  let page: TempPage;
+describe('<%= appName %> App', () => {
+  let page: <%= appTitle %>Page;
 
   beforeEach(() => {
-    page = new TempPage();
+    page = new <%= appTitle %>Page();
   });
 
   it('should display message saying app works', () => {

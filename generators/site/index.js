@@ -29,7 +29,7 @@ module.exports = class extends Generator {
     this.fs.copyTpl(
       this.templatePath('./'),
       this.destinationPath(directoryName),
-      {appName: s.dasherize(this.options.name)}
+      {appName: s.dasherize(this.options.name), appTitle: s.classify(this.options.name)}
     );
   }
 };
