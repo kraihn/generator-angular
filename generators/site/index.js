@@ -25,6 +25,10 @@ module.exports = class extends Generator {
       this.templatePath('.gitignore'),
       this.destinationPath(directoryName + '/.gitignore')
     );
+    this.fs.copy(
+      this.templatePath('src/assets/.gitkeep'),
+      this.destinationPath(directoryName + '/src/assets/.gitkeep')
+    );
 
     this.fs.copyTpl(
       this.templatePath('./'),
