@@ -15,5 +15,8 @@ module.exports = class extends Generator {
       directory: directoryName,
       arguments: [this.options.name]
     });
+    this.composeWith(require.resolve('../docker'), {
+      directory: directoryName
+    });
   }
 };
