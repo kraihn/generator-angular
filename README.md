@@ -1,4 +1,4 @@
-# generator-angular [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# @kraihn/generator-angular [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > 
 
 ## Installation
@@ -7,13 +7,13 @@ First, install [Yeoman](http://yeoman.io) and generator-angular using [npm](http
 
 ```bash
 npm install -g yo
-npm install -g generator-angular
+npm install -g @kraihn/generator-angular
 ```
 
 Then generate your new project:
 
 ```bash
-yo angular
+yo @kraihn/angular
 ```
 
 ## Getting To Know Yeoman
@@ -28,8 +28,8 @@ yo angular
 Apache-2.0 © [Jared Dickson](https://www.jareddickson.com)
 
 
-[npm-image]: https://badge.fury.io/js/generator-angular.svg
-[npm-url]: https://npmjs.org/package/generator-angular
+[npm-image]: https://badge.fury.io/js/%40kraihn%2Fgenerator-angular.svg
+[npm-url]: https://npmjs.org/package/@kraihn/generator-angular
 [travis-image]: https://travis-ci.org/kraihn/generator-angular.svg?branch=master
 [travis-url]: https://travis-ci.org/kraihn/generator-angular
 [daviddm-image]: https://david-dm.org/kraihn/generator-angular.svg?theme=shields.io
