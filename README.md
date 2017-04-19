@@ -1,4 +1,4 @@
-# generator-angular [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# @kraihn/generator-angular [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > 
 
 ## Installation
@@ -7,13 +7,13 @@ First, install [Yeoman](http://yeoman.io) and generator-angular using [npm](http
 
 ```bash
 npm install -g yo
-npm install -g generator-angular
+npm install -g @kraihn/generator-angular
 ```
 
 Then generate your new project:
 
 ```bash
-yo angular
+yo @kraihn/angular
 ```
 
 ## Getting To Know Yeoman
