@@ -41,8 +41,9 @@
   },
   "scripts": {
     "prepublish": "nsp check",
-    "pretest": "eslint . --fix",
+    "pretest": "rimraf tmp && eslint . --fix",
     "test": "jest",
+    "posttest": "yo ./generators/site tmp && cd tmp && npm install && npm run lint && npm run test -- --watch=false",
     "prescaffold:site": "rimraf generators/site/templates",
     "scaffold:site": "ng new Seed -dir generators/site/templates --style scss --routing --skip-install --skip-commit",
     "postscaffold:site": "node scripts/templatize-site.js",
