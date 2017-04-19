@@ -28,8 +28,8 @@ yo angular
 Apache-2.0 © [Jared Dickson](https://www.jareddickson.com)
 
 
-[npm-image]: https://badge.fury.io/js/generator-angular.svg
-[npm-url]: https://npmjs.org/package/generator-angular
+[npm-image]: https://badge.fury.io/js/@kraihn/generator-angular.svg
+[npm-url]: https://npmjs.org/package/@kraihn/generator-angular
 [travis-image]: https://travis-ci.org/kraihn/generator-angular.svg?branch=master
 [travis-url]: https://travis-ci.org/kraihn/generator-angular
 [daviddm-image]: https://david-dm.org/kraihn/generator-angular.svg?theme=shields.io
