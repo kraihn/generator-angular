@@ -17,6 +17,15 @@ function siteFiles() {
     'src/assets/.gitkeep',
     'src/environments/environment.prod.ts',
     'src/environments/environment.ts',
+    'src/favicon.ico',
+    'src/index.html',
+    'src/main.ts',
+    'src/polyfills.ts',
+    'src/styles.scss',
+    'src/test.ts',
+    'src/tsconfig.app.json',
+    'src/tsconfig.spec.json',
+    'src/typings.d.ts',
     '.angular-cli.json',
     '.editorconfig',
     '.gitignore',
@@ -29,7 +38,7 @@ function siteFiles() {
   ];
 }
 
-describe('generator-angular:site', function () {
+describe('@kraihn/generator-angular:site', function () {
   beforeEach(function () {
     return helpers.run(path.join(__dirname, '../generators/site'))
       .withArguments(['.'])
