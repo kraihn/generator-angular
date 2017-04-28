@@ -1,6 +1,6 @@
 {
   "name": "@kraihn/generator-angular",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "",
   "homepage": "",
   "author": {
@@ -58,5 +58,5 @@
     }
   },
   "repository": "kraihn/generator-angular",
-  "license": "Apache-2.0"
+  "license": "MIT"
 }
